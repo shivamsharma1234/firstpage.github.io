@@ -1,0 +1,125 @@
+#cnotice_bnr{
+
+    text-align: center;
+    background-color: #000;
+
+
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden; 
+    -webkit-transform: translateZ(0);
+
+    display: none;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right: 0px;
+
+    margin: 0 auto;
+    padding: 6px;
+
+    width: 100%;
+    height: auto;
+
+    z-index: 19999;
+
+    border-bottom: 2px solid #4d90fe;
+}
+
+
+#cnotice_txt {
+    color: #fff;
+    display: inline-block;
+
+    margin: 6px;
+    padding: 0px;
+
+    width: 1000px;
+
+}
+
+#cnotice_txt,#cnotice_txt a, #cnotice_bnr a.cnotice_btn{
+
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+
+#cnotice_txt a{
+    text-decoration: underline;
+    color: #f7a21c;
+}
+
+
+
+
+#cnotice_bnr a.cnotice_btn {
+
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    box-sizing: content-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;     
+
+    min-width: 26px;
+    outline: 0 none;
+    padding: 0 8px;
+    text-align: center;
+    white-space: nowrap;
+
+    text-decoration: none;
+
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+
+    float: right;
+    margin-top: 8px;
+    margin-left: 5px;
+
+}
+
+#cnotice_bnr .cnotice_btn:hover{
+    background-color: #176a34;
+    border: 1px solid #439e47;
+}
+
+
+.cen-no-cookie .cen-iframe,.cen-no-cookie .cen-script,.cen-no-cookie .cen-nc-hidden{
+    display: none;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    #cnotice_txt{
+        width: 1000px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #cnotice_txt{
+        width: 768px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #cnotice_txt{
+        width: 96%;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

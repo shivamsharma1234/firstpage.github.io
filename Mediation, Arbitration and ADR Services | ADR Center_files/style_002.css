@@ -1,0 +1,129 @@
+.white-popup-block {
+    background: #fff none repeat scroll 0 0;
+    margin: 40px auto;
+    max-width: 480px;
+    padding: 20px 30px;
+    position: relative;
+    text-align: left;
+}
+
+
+.btn_pop {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+    margin:10px 0px;
+    width: 100%;
+}
+
+.pop-wrap{
+    color:#58585a;
+    box-sizing: border-box;
+}
+
+.pop-wrap h1, .pop-wrap h2{
+    margin-top: 0px;
+}
+
+
+.pop-wrap p{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pop-wrap label{
+    display: block;
+}
+
+.pop-wrap input, .pop-wrap textarea, .pop-wrap select{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type='checkbox'] {
+    width: auto !important;
+    display: inline;
+}
+
+.pop-wrap textarea{
+    max-height: 80px;
+    color: #000;
+}
+
+
+.pop-pry{
+    font-size: 12px;
+}
+
+
+
+form .ajax-response, form .ajax-loader{
+    display: none;
+}
+
+form .ajax-response{
+    border: 2px solid #24890d;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color:#24890d !important;
+}
+
+form .ajax-response.error{
+    border: 2px solid #f7e700;
+} 
+
+textarea{
+    color: #000 !important;
+}
+
+
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
